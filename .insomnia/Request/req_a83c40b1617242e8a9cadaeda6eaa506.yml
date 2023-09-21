@@ -1,0 +1,35 @@
+_id: req_a83c40b1617242e8a9cadaeda6eaa506
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695333793907
+created: 1695327677127
+url: http://localhost:8080/oauth2/introspect
+name: Auth introspect
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: ""
+      name: token
+      disabled: false
+      id: pair_5a2bf30bb05e4237be92e013b7ea0fe5
+parameters: []
+headers:
+  - id: pair_5f0b975f9b3248ed83bf8d64f90472b1
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: basic
+  disabled: false
+  username: awblog
+  password: "123456"
+metaSortKey: -1695327683369.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

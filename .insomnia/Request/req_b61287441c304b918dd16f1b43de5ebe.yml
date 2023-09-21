@@ -1,0 +1,31 @@
+_id: req_b61287441c304b918dd16f1b43de5ebe
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695331964199
+created: 1695327727078
+url: http://localhost:8080/health
+name: Auth through OAuth2 option Authentication
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: oauth2
+  grantType: authorization_code
+  authorizationUrl: http://localhost:8080/oauth2/authorize
+  accessTokenUrl: http://localhost:8080/oauth2/token
+  clientId: awblog
+  clientSecret: "123456"
+  redirectUrl: https://oidcdebugger.com/debug
+  scope: myuser:read myuser:write posts:write
+metaSortKey: -1695327727078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

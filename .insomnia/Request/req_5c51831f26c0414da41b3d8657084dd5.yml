@@ -1,0 +1,43 @@
+_id: req_5c51831f26c0414da41b3d8657084dd5
+type: Request
+parentId: fld_f845ef93ae984c609ce9216752d955e6
+modified: 1695328631885
+created: 1695327677126
+url: http://localhost:8080/oauth2/token
+name: Auth with Auth Code - AWBLOG
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: authorization_code
+      name: grant_type
+      disabled: false
+      id: pair_77ee76362855408cb7bf897efa8ab8f1
+    - value: ""
+      name: code
+      disabled: false
+      id: pair_95419355e5c7471db379dd6bd8ed24bc
+    - value: https://oidcdebugger.com/debug
+      name: redirect_uri
+      disabled: false
+      id: pair_8f4c02a65d484c5da6fc52faacab91c5
+parameters: []
+headers:
+  - id: pair_9cc3368351a64705ad0b60c3a6802d88
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: basic
+  disabled: false
+  username: awblog
+  password: "123456"
+metaSortKey: -1695328610007
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

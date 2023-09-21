@@ -1,0 +1,39 @@
+_id: req_8ff10d2d55b048cd916cfef620e3faa4
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695328851736
+created: 1695327677127
+url: http://localhost:8080/oauth2/token
+name: Auth with Refresh Token - AWBLOG
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: refresh_token
+      name: grant_type
+      disabled: false
+      id: pair_4c4d6f6230ae433d94e0aa56a3fda372
+    - value: ""
+      name: refresh_token
+      disabled: false
+      id: pair_9565a0c0e9aa4763ac904df7d5cd73a1
+parameters: []
+headers:
+  - id: pair_abd0e19d8c484264a06c13661d39db62
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: basic
+  disabled: false
+  username: awblog
+  password: "123456"
+metaSortKey: -1695327680247.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

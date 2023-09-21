@@ -1,0 +1,35 @@
+_id: req_0e6bd22e878746888db1549902f948f9
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695328966305
+created: 1695327677127
+url: http://localhost:8080/oauth2/revoke
+name: Auth revoke
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: ""
+      name: token
+      disabled: false
+      id: pair_3fa8f53133c141ea8c357dc57a56ce4f
+parameters: []
+headers:
+  - id: pair_b6b501b8e41a47678bf99f5c5676e2bb
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: basic
+  disabled: false
+  username: awblog
+  password: "123456"
+metaSortKey: -1695327678686.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

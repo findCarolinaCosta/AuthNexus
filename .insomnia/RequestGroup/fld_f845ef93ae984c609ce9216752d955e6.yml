@@ -1,0 +1,10 @@
+_id: fld_f845ef93ae984c609ce9216752d955e6
+type: RequestGroup
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695328591625
+created: 1695328591625
+name: Auth token manually
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1695328591625

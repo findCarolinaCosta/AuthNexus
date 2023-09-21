@@ -1,0 +1,41 @@
+_id: req_3704207b58054fe2b039325c87bb01df
+type: Request
+parentId: fld_f845ef93ae984c609ce9216752d955e6
+modified: 1695328617298
+created: 1695327677128
+url: http://localhost:8080/oauth2/authorize?response_type=code&client_id=awblog&state=abc&redirect_uri=https%3A%2F%2Foidcdebugger.com%2Fdebug&scope=myuser%3Aread%20myuser%3Awrite%20posts%3Awrite
+name: Request Auth Code Manually (Navegador)
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: response_type
+    value: code
+    disabled: true
+    id: pair_a6b8c0bdc1814cfd9809487a0dc91791
+  - name: client_id
+    value: awblog
+    disabled: true
+    id: pair_f5bef44606b64a5f96a38b2c4e32ecc2
+  - name: state
+    value: abc
+    disabled: true
+    id: pair_e6197e11daad4f2eb006408cc34a51c4
+  - name: redirect_uri
+    value: https://oidcdebugger.com/debug
+    disabled: true
+    id: pair_a1e3dd7a29584f85a9738e8855e97140
+  - name: scope
+    value: myuser:read%20myuser:write%20posts:write
+    disabled: true
+    id: pair_624dec53b3e94c328ac82a0447819b86
+headers: []
+authentication: {}
+metaSortKey: -1695328610107
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_dfd09697b5bd4e6b8cc8e41a129cb105
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695328427947
+created: 1695327677126
+url: http://localhost:8080/oauth2/token
+name: Auth with Client Credentials
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - value: client_credentials
+      name: grant_type
+      disabled: false
+      id: pair_5c2534f6bbf44c32a33447f411b8511a
+    - value: users:read
+      name: scope
+      disabled: false
+      id: pair_bba2c8469a3e49dfbffeaf2d1a19f962
+parameters: []
+headers:
+  - id: pair_879a378383bb4093b558937211aa2ded
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: awuser
+  password: "1234567"
+metaSortKey: -1695327677905.5156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

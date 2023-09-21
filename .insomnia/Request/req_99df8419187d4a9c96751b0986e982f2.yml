@@ -1,0 +1,21 @@
+_id: req_99df8419187d4a9c96751b0986e982f2
+type: Request
+parentId: wrk_3225028e35514805b0c190dbe83d67fe
+modified: 1695329179932
+created: 1695327677128
+url: http://localhost:8080/oauth2/jwks
+name: Auth JWKS
+description: Make available the public keys used to verify JWT tokens issued by the server.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1695327702101.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
