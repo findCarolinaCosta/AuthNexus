@@ -52,3 +52,4 @@ buildNumber.properties
 /target/classes/
 .tool-versions
 .idea/
+**/resources/keystore/**
